@@ -1,0 +1,28 @@
+{
+  "name": "gapgent-db",
+  "version": "0.1.0",
+  "description": "Database model and functions",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js --yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jegarcia28/gapgent.git"
+  },
+  "author": "Jhojan García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jegarcia28/gapgent/issues"
+  },
+  "homepage": "https://github.com/jegarcia28/gapgent#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "defaults": "^1.0.3",
+    "inquirer": "^6.3.1",
+    "minimist": "^1.2.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.9"
+  }
+}

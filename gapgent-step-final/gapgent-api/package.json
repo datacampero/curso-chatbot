@@ -1,0 +1,32 @@
+{
+  "name": "gapgent-api",
+  "version": "0.1.0",
+  "description": "API definition",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "cross-env DEBUG=parking:* nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jegarcia28/gapgent.git"
+  },
+  "author": "Jhojan García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jegarcia28/gapgent/issues"
+  },
+  "homepage": "https://github.com/jegarcia28/gapgent#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-asyncify": "^1.0.0",
+    "gapgent-db": "file:../gapgent-db"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
